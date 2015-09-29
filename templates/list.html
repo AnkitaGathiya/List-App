@@ -1,0 +1,22 @@
+<ion-view>
+    <ion-header-bar class="bar-positive">
+		<button class="button button-icon icon ion-ios-minus-outline" ng-click="data.showDelete = !data.showDelete; data.showReorder = false"></button>
+		<h1 class="title">List</h1>
+		<button class="button button-icon icon ion-plus-circled" ng-click="openModaladditem()"></button>
+    </ion-header-bar>
+
+    <ion-content>
+
+		<ion-list show-delete="data.showDelete">
+
+			<ion-item ng-repeat="item in items | reverse track by $index" item="item" href="#/item/{{item.id}}" class="item-remove-animate item-text-wrap">
+				<h2>{{item.title}}</h2>
+				<p>{{item.body}}</p>
+				<ion-delete-button class="ion-minus-circled" ng-click="onItemDelete(item)"></ion-delete-button>
+			</ion-item>
+
+		</ion-list>
+
+    </ion-content>
+      
+</ion-view>

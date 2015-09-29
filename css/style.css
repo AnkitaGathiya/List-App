@@ -1,0 +1,211 @@
+/* Empty. Add your own CSS if you like */
+.maindiv > div{
+	height:100% !important;
+}
+
+@font-face {
+    font-family: "BEBAS" !important;
+    src: url(BEBAS___.TTF);
+}
+
+@font-face {
+    font-family: "MyriadPro-Light" !important;
+    src: url(MyriadPro-Light.otf);
+}
+
+@font-face {
+    font-family: "Helvetica" !important;
+    src: url(Helvetica.otf);
+}
+.input_width{
+	border-bottom:1px solid #FFF !important;
+	width: 85% !important;
+	color: #FFF !important;
+	height: 20px !important;
+}
+.text_black{
+	color:#333 !important;
+}
+.input_width1{
+	border-bottom:1px solid #FFF !important;
+	width: 80% !important;
+	color: #333 !important;
+	height: 20px !important;
+}
+.font-Helvetica{
+	font-family: "Helvetica" !important;
+}
+
+.font-BEBAS{
+	font-family: "BEBAS" !important;
+}
+
+.font-MyriadPro-Light{
+	font-family: "MyriadPro-Light" !important;
+}
+
+.title.header-item{
+	text-align:center !important;
+}
+
+.border{
+	border:1px solid !important;
+	border-color:#fff !important;
+}
+
+.border_dark{
+	border-color:#333 !important;
+}
+
+.border_white{
+	border-color:#fff !important;
+}
+
+.no_background{
+	background:none !important;
+	box-shadow:none !important;
+	border:none !important;
+}
+
+.background-gray{
+	background:#ede4e5 !important;
+}
+
+.background_color{
+	background:#1fb575 !important;
+}
+
+.background_light{
+	background:#eaf6f1 !important;
+}
+
+.background_white{
+	background:#fff !important;
+}
+
+.background_dark{
+	background:#333 !important;
+}
+
+.text_center{
+	text-align:center !important;
+}
+
+.text_left{
+	text-align:left !important;
+}
+
+.text_right{
+	text-align:right !important;
+}
+
+.text_color{
+	color:#1fb575 !important;
+}
+
+.text_white{
+	color:#fff !important;
+}
+
+.text_dark{
+	color:#333 !important;
+}
+
+.no_padding{
+	padding:0 !important;
+}
+
+.no_margin{
+	margin:0 !important;
+}
+
+.padding5{
+	padding:5px !important;
+}
+
+.padding10{
+	padding:10px !important;
+}
+
+.br5{
+	border-radius:5px !important;
+}
+
+.br10{
+	border-radius:10px !important;
+}
+
+.br15{
+	border-radius:15px !important;
+}
+
+.br20{
+	border-radius:20px !important;
+}
+
+.br100{
+	border-radius:100px !important;
+}
+
+.no_border{
+	border:none !important;
+	box-shadow:none !important;
+}
+
+.br-t-l{
+	border-radius:8px 0 0 0 !important;
+}
+.br-t-r{
+	border-radius:0 8px 0 0 !important;
+}
+.br-b-l{
+	border-radius:0 0 0 8px !important;
+}
+.br-b-r{
+	border-radius:0 0 8px 0 !important;
+}
+
+.placeholder_white::-webkit-input-placeholder {
+   color: #fff !important;
+}
+
+.placeholder_white:-moz-placeholder { /* Firefox 18- */
+   color: #fff !important;  
+}
+
+.placeholder_white::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff !important; 
+}
+
+.placeholder_white:-ms-input-placeholder {  
+   color: #fff !important; 
+}
+
+.fs-14{
+	font-size:14px !important;
+}
+
+.fs-16{
+	font-size:16px !important;
+}
+
+.fs-18{
+	font-size:18px !important;
+}
+
+.fs-20{
+	font-size:20px !important;
+}
+
+.fs-22{
+	font-size:22px !important;
+}
+
+.fs-24{
+	font-size:24px !important;
+}
+
+.no_shadow{
+	box-shadow:none !important;
+	border:none !important;
+}
